@@ -1,0 +1,10 @@
+.first-row {
+  padding: 20px;
+  background: rgb(248, 248, 248);
+}
+
+.second-row {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}

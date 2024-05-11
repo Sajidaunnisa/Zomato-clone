@@ -1,0 +1,21 @@
+.top-brands-cover {
+  height: 150px;
+  width: 150px;
+  background-color: white;
+  border-radius: 50%;
+}
+.top-brands-image {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+.top-brands-title {
+  font-size: 16px;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-top: 6px;
+  margin-left: 45px;
+  margin-right: 30px;
+}
