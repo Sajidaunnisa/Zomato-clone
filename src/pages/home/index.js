@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Header from "../../Components/common/header";
 import TabOptions from "../../Components/common/tabOptions";
-import Footer from "../../Components/common/footer";
 import Delivery from "../../Components/delivery";
 import DiningOut from "../../Components/diningOut";
 import Nightlife from "../../Components/nightLife";
@@ -13,7 +12,6 @@ const HomePage = () => {
       <Header />
       <TabOptions activeTab={activeTab} setActiveTab={setActiveTab} />
       {getCorrectScreen(activeTab)}
-      <Footer />
     </div>
   );
 };

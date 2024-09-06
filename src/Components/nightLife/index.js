@@ -1,5 +1,4 @@
 import React from "react";
-import "./nightLife.css";
 import Filters from "../common/filters";
 import Slider from "react-slick";
 import CollnextArrow from "../common/carousel/collnextArrow";
