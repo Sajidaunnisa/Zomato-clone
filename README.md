@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# 🍽️ Zomato Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A fully responsive **Zomato Clone** built using **React.js**, mimicking Zomato’s core UI structure and basic functionality. This project was created to practice component-based architecture, props handling, and routing in React.
 
-## Available Scripts
+🚀 **Live Demo**: [Zomato Clone on Netlify](https://zomato-clone-sajida.netlify.app)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📌 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 📍 Location-based layout
+- 🛵 Delivery, Dining Out, and Nightlife sections
+- 📸 Restaurant cards with images, names, and tags
+- 🔍 Search bar with filter options (UI only)
+- ⚛️ Component-based design using React
+- 💡 Clean and modular code structure
+- 📱 Mobile responsive layout
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Frontend Framework**: React.js
+- **Routing**: React Router DOM
+- **Styling**: CSS3, Flexbox, Media Queries
+- **Icons**: Font Awesome / React Icons
+- **Deployment**: Netlify
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🗂️ Folder Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Zomato-clone/
+│
+├── public/
+├── src/
+│   ├── components/         # Navbar, Tabs, Cards, etc.
+│   ├── pages/              # Dining, Delivery, Nightlife
+│   ├── App.js
+│   ├── index.js
+├── package.json
+└── README.md
 
-### `npm run eject`
+````
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## ⚙️ Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Prerequisites
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Node.js
+- npm or yarn
 
-## Learn More
+### Installation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+# Clone the repository
+git clone https://github.com/Sajidaunnisa/Zomato-clone.git
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Navigate to the project directory
+cd Zomato-clone
 
-### Code Splitting
+# Install dependencies
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Start the local server
+npm start
+````
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 👩‍💻 About the Developer
 
-### Making a Progressive Web App
+I’m **Sajida Unnisa**, a frontend developer passionate about building responsive and modern UIs with React. This project helped me understand how to structure multi-page interfaces using reusable components.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+🔗 [Portfolio](https://sajida-portfolio.netlify.app)
+📧 [Email](mailto:sajidaunnisa326@gmail.com)
+💼 [LinkedIn](https://linkedin.com/in/sajidaunnisa)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
